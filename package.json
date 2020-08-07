@@ -1,0 +1,42 @@
+{
+  "name": "minimal-webpack-setup-files",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "dsv-loader": "^2.0.0",
+    "file-loader": "^3.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "pug": "^2.0.3",
+    "pug-html-loader": "^1.1.5",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.3",
+    "d3": "^5.16.0",
+    "d3-dsv": "^1.2.0"
+  },
+  "scripts": {
+    "compile": "webpack --mode production",
+    "dev:server": "webpack-dev-server --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "email": "",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
